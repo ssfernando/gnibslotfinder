@@ -1,0 +1,37 @@
+{
+    "env": {
+      "node": true
+    },
+    "extends": ["prettier"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "rules": {
+      "trailingComma": 0,
+      "class-methods-use-this": 0,
+      "comma-dangle": ["error", "only-multiline"],
+      "newline-after-var": ["error", "always"],
+      "newline-before-return": "error",
+      "no-param-reassign": 0,
+      "no-nested-ternary": "off",
+      "no-underscore-dangle": "off",
+      "no-use-before-define": "off",
+      "no-unused-vars": [1, {
+        "vars": "local",
+        "args": "none", 
+        "ignoreRestSiblings" : true
+      }],
+      "prettier/prettier": [
+        "error",
+        {
+          "semi": false,
+          "singleQuote": true,
+          "trailingComma": "es5"
+        }
+      ],
+      "quotes": 0,
+      "semi": "off"
+    }
+  }
+  

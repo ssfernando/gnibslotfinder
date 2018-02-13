@@ -1,0 +1,8 @@
+{
+    "eslint.autoFixOnSave": true,
+    "javascript.validate.enable": false,
+    "editor.rulers": [
+        80
+    ],
+    "editor.tabSize": 2
+}
