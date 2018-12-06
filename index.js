@@ -11,10 +11,10 @@ let p = '00000000000000000000000000000000'
 
 const RESTART_TIME = 3000
 const SERVICE = 'Gmail'
-const USER = '{SENDER_EMAIL}'
-const PASSWORD = '{SENDER_EMAIL_PASSWORD}'
+const USER = '{your_email}'
+const PASSWORD = '{your_email_password}'
 const FROM = 'GNIB NODE APP'
-const TO = '{RECEIVER_EMAILS}'
+const TO = '{emails_to_send_to}'
 const SUBJECT = 'GNIB APPOINTMENT'
 const K_TAG = '<input id="k" type="hidden" value="'
 const P_TAG = '<input id="p" type="hidden" value="'
