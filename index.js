@@ -71,7 +71,7 @@ async function notify(slots) {
   const shouldNotify = slots.length > 0 && didSlotsChanged(slots)
 
   if (shouldNotify) {
-    // await Promise.all([sendDesktopNotification(slots), sendEmail(slots)])
+    await Promise.all([sendDesktopNotification(slots), sendEmail(slots)])
     await sendDesktopNotification(slots)
   }
 
